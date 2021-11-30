@@ -1,5 +1,5 @@
 #logo {
-  height: 2.5rem;
+  height: 2.3rem;
 }
 
 .navbar {
@@ -7,7 +7,9 @@
 }
 
 .navbar > .container {
-  width: 60%;
+  margin: 0.3rem 3rem;
+  width: 100% !important;
+  max-width: unset;
 }
 
 .navbar-collapse {
@@ -15,6 +17,19 @@
   flex-grow: unset;
 }
 
+.navbar-brand {
+  margin: 0 1rem;
+}
+
+.nav-item {
+  line-height: 0.3rem;
+}
+
 .nav-link {
   color: var(--secondary-colour) !important;
+  margin: 0.1rem 1rem;
+}
+
+.nav-item:nth-of-type(1) {
+  border-right: 1px solid var(--secondary-colour);
 }
