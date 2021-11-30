@@ -1,0 +1,23 @@
+#greeting {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background: url("../../assets/main-background.jpeg") no-repeat fixed center;
+  background-size: cover;
+  color: var(--secondary-colour);
+}
+
+#overlay {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  opacity: 0.1;
+}
+
+#heading {
+  text-align: center;
+  z-index: 1000;
+}

@@ -1,0 +1,20 @@
+#logo {
+  height: 2.5rem;
+}
+
+.navbar {
+  background: linear-gradient(black, transparent);
+}
+
+.navbar > .container {
+  width: 60%;
+}
+
+.navbar-collapse {
+  width: fit-content;
+  flex-grow: unset;
+}
+
+.nav-link {
+  color: var(--secondary-colour) !important;
+}
