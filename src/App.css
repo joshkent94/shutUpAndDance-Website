@@ -11,14 +11,19 @@ body {
 
 #root {
   display: flex;
+  flex-direction: column;
   min-height: 100vh;
   width: 100%;
-  align-items: stretch;
-  flex: 1;
+  align-items: center;
 }
 
 :root {
   --primary-colour: #353935;
   --secondary-colour: white;
-  --tertiary-colour: #dadada;
+  --third-colour: #3e5d22;
+  --fourth-colour: #b8b3b0;
+}
+
+#main-content {
+  width: 70%;
 }
