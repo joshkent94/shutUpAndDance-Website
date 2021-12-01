@@ -18,12 +18,23 @@ body {
 }
 
 :root {
-  --primary-colour: #353935;
+  --primary-colour: black;
   --secondary-colour: white;
-  --third-colour: #3e5d22;
-  --fourth-colour: #b8b3b0;
+  --third-colour: #b8b3b0;
+  --fourth-colour: #3e5d22;
 }
 
 #main-content {
   width: 70%;
+}
+
+.content-block {
+  height: 40rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h3 {
+  font-weight: 600;
 }

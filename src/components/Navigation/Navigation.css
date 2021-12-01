@@ -17,6 +17,15 @@
   margin: 0 1rem;
 }
 
+.navbar-toggler {
+  border: none;
+  margin: 0 1rem;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>") !important;
 }
@@ -31,11 +40,19 @@
 }
 
 .nav-link:hover {
-  color: var(--fourth-colour) !important;
+  color: var(--third-colour) !important;
 }
 
 .nav-item:nth-of-type(1) {
   border-right: 1px solid var(--secondary-colour);
+}
+
+.nav-colored {
+  background-color: var(--primary-colour);
+}
+
+.nav-transparent {
+  background-color: none;
 }
 
 @media (max-width: 992px) {
