@@ -1,9 +1,16 @@
+import guitarist from '../../assets/guitarist.jpg';
+
 export default function SongSuggestionsFeature() {
     return (
         <div className="content-block" id="suggestion-feature">
-            <h3>Song recommendations based on songs, artists and music genres you listen to</h3>
-            <h5>Our AI powered recommendations engine will have you discovering new music that you love</h5>
-            <button><a href="#gigs-feature">Learn More</a></button>
+            <div className="image-content">
+                <img src={guitarist} alt="guitarist" className="feature-image"></img>
+            </div>
+            <div className="text-content">
+                <h3>Song recommendations based on the music you love</h3>
+                <h5>Our recommendations engine will introduce you to new music that you enjoy.</h5>
+                <button className="learn-more-button"><a href="https://app.shutupanddance.io/signup" className="learn-more-link">Learn more</a></button>
+            </div>
         </div>
     );
 };

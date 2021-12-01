@@ -1,5 +1,6 @@
 #greeting {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -10,8 +11,22 @@
 }
 
 #heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
   z-index: 1000;
+  height: 95%;
+}
+
+#to-content {
+  color: var(--secondary-colour);
+  font-size: 2rem;
+  height: 5%;
+}
+
+#to-content:hover {
+  color: var(--third-colour);
 }
 
 h1 {
