@@ -9,7 +9,7 @@ export default function ForumFeature() {
             <div className="text-content">
                 <h3>Spread your love of music with other like-minded people</h3>
                 <h5>Speak to and share song suggestions with other people with similar music tastes to you.</h5>
-                <button className="sign-up-prompt"><a href="https://app.shutupanddance.io/signup">START FOR FREE</a></button>
+                <button className="learn-more-button"><a href="/" className="learn-more-link">Learn more<i className="bi bi-caret-right-fill"></i></a></button>
             </div>
         </div>
     );

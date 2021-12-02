@@ -6,6 +6,7 @@ import SongSuggestionsFeature from './components/SongSuggestionsFeature/SongSugg
 import GigsFeature from './components/GigsFeature/GigsFeature';
 import ForumFeature from './components/ForumFeature/ForumFeature';
 import MainInfo from './components/MainInfo/MainInfo';
+import Footer from './components/Footer/Footer';
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
         <GigsFeature />
         <ForumFeature />
       </div>
+      <Footer />
     </React.Fragment>
   );
 };

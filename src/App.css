@@ -5,8 +5,7 @@
 }
 
 body {
-  font-family: "Klee One", cursive;
-  font-weight: 900 !important;
+  font-family: "Quicksand", sans-serif;
 }
 
 #root {
@@ -29,13 +28,18 @@ body {
 }
 
 .content-block {
-  height: 40rem;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  padding: 8rem 1rem;
+}
+
+.content-block:nth-of-type(1) {
+  margin-top: 8rem;
 }
 
 .text-content {
-  width: 40%;
+  width: 35%;
 }
 
 .image-content {
@@ -45,24 +49,25 @@ body {
 }
 
 .feature-image {
-  width: 80%;
+  width: 90%;
 }
 
-.sign-up-prompt {
-  background-color: var(--primary-colour);
-  border-radius: 0.5rem;
-  padding: 1rem;
-  font-weight: 600;
+.learn-more-button {
   margin-top: 2rem;
 }
 
 .learn-more-link {
   color: var(--fourth-colour);
+  font-weight: 600;
+}
+
+.learn-more-link:hover {
+  color: var(--fourth-colour);
 }
 
 h3 {
-  font-weight: 600;
-  margin-bottom: 1rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
 }
 
 a {
@@ -73,4 +78,20 @@ a {
 button {
   border: none;
   background-color: unset;
+}
+
+.bi-caret-right-fill {
+  margin-left: 0.4rem;
+  font-size: 1.1rem;
+}
+
+.bi-caret-right-fill::before {
+  transition-property: transform;
+  transition-duration: 0.5s;
+  transform: translateY(1px);
+}
+
+.learn-more-link:hover > .bi-caret-right-fill::before {
+  transform: translate(5px, 1px);
+  -webkit-transform: translate(5px, 1px);
 }
