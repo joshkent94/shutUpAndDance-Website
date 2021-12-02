@@ -52,19 +52,6 @@ body {
   width: 90%;
 }
 
-.learn-more-button {
-  margin-top: 2rem;
-}
-
-.learn-more-link {
-  color: var(--fourth-colour);
-  font-weight: 600;
-}
-
-.learn-more-link:hover {
-  color: var(--fourth-colour);
-}
-
 h3 {
   font-weight: 700;
   margin-bottom: 1.5rem;
@@ -80,18 +67,41 @@ button {
   background-color: unset;
 }
 
-.bi-caret-right-fill {
-  margin-left: 0.4rem;
-  font-size: 1.1rem;
+.learn-more {
+  margin-top: 2rem;
 }
 
-.bi-caret-right-fill::before {
-  transition-property: transform;
-  transition-duration: 0.5s;
-  transform: translateY(1px);
+.cta {
+  color: var(--fourth-colour);
 }
 
-.learn-more-link:hover > .bi-caret-right-fill::before {
-  transform: translate(5px, 1px);
-  -webkit-transform: translate(5px, 1px);
+.cta span {
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+.cta svg {
+  margin-left: 12px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: var(--fourth-colour);
+  stroke-width: 2;
+  transform: translateX(-5px);
+  transition: all 0.4s ease;
+}
+
+.cta:hover svg {
+  transform: translateX(0);
+  stroke: var(--fourth-colour);
+}
+
+.cta:active {
+  transform: scale(0.96);
+}
+
+.cta:hover {
+  color: var(--fourth-colour);
 }

@@ -9,7 +9,15 @@ export default function SongSuggestionsFeature() {
             <div className="text-content">
                 <h3>Song suggestions based on the music you love</h3>
                 <h5>Our recommendations engine will introduce you to new music that you enjoy.</h5>
-                <button className="learn-more-button"><a href="/" className="learn-more-link">Learn more<i className="bi bi-caret-right-fill"></i></a></button>
+                <div className="learn-more">
+                    <a href="/" className="cta">
+                        <span>Learn more</span>
+                        <svg width="13px" height="10px" viewBox="0 0 13 10">
+                            <path d="M1,5 L11,5"></path>
+                            <polyline points="8 1 12 5 8 9"></polyline>
+                        </svg>
+                    </a>
+                </div>
             </div>
         </div>
     );
