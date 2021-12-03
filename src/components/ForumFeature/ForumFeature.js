@@ -1,8 +1,26 @@
 import djSet from '../../assets/dj-set2.jpg';
+import { useState, useRef, useEffect } from 'react';
 
 export default function ForumFeature() {
+    const [isVisible, setVisible] = useState(false);
+    const domRef = useRef();
+
+    useEffect(() => {
+        const observer = new IntersectionObserver(entries => {   
+            if (entries[0].isIntersecting) {
+                setVisible(true);
+                observer.unobserve(domRef.current);
+            };
+        });
+    
+        observer.observe(domRef.current);
+        const node = domRef.current
+    
+        return () => observer.unobserve(node);
+    }, []);
+
     return (
-        <div className="content-block" id="forum-feature">
+        <div ref={domRef} className={isVisible ? "content-block animate__animated animate__slow animate__fadeIn" : "content-block animate__animated animate__slow"} id="forum-feature">
             <div className="image-content">
                 <img src={djSet} alt="guitarist" className="feature-image"></img>
             </div>
