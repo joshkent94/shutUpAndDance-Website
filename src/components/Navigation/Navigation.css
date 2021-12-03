@@ -41,7 +41,7 @@
 }
 
 .nav-link:hover {
-  color: var(--third-colour) !important;
+  color: var(--fourth-colour) !important;
 }
 
 .nav-item:nth-of-type(1) {

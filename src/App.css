@@ -19,7 +19,7 @@ body {
 :root {
   --primary-colour: black;
   --secondary-colour: white;
-  --third-colour: #b8b3b0;
+  --third-colour: lightgray;
   --fourth-colour: #3e5d22;
 }
 
