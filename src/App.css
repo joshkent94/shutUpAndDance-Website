@@ -4,8 +4,13 @@
   box-sizing: border-box;
 }
 
+html {
+  height: 100vh;
+}
+
 body {
   font-family: "Quicksand", sans-serif;
+  height: 100vh;
 }
 
 #root {
