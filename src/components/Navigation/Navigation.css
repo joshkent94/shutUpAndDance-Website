@@ -63,3 +63,9 @@
     margin-top: 0.5rem;
   }
 }
+
+@media (max-width: 480px) {
+  .navbar > .container {
+    margin: 0.3rem 1rem;
+  }
+}
