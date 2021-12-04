@@ -5,18 +5,19 @@
 }
 
 html {
-  height: 100vh;
+  height: 100%;
 }
 
 body {
   font-family: "Quicksand", sans-serif;
-  height: 100vh;
+  height: 100%;
 }
 
 #root {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  height: 100%;
   width: 100%;
   align-items: center;
 }
