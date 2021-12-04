@@ -35,9 +35,15 @@ h1 {
   margin-bottom: 2rem;
 }
 
+@media screen and (max-width: 1024px) {
+  #greeting {
+    background-attachment: scroll !important;
+  }
+}
+
 @media screen and (max-width: 480px) {
   #greeting {
-    background: url("../../assets/rapper-cropped.jpg") no-repeat fixed center;
+    background: url("../../assets/rapper-cropped.jpg") no-repeat scroll center;
     background-size: cover;
   }
 }
