@@ -5,9 +5,8 @@
   align-items: center;
   height: 100vh;
   width: 100vw;
-  background: url("../../assets/rapper.jpg") no-repeat fixed;
-  background-size: cover;
-  background-position: center center;
+  background: url("../../assets/rapper.jpg") no-repeat fixed center;
+  background-size: 100% 100%;
   color: var(--secondary-colour);
 }
 
@@ -33,10 +32,4 @@
 h1 {
   font-weight: 600;
   margin-bottom: 2rem;
-}
-
-@media (max-width: 480px) {
-  #greeting {
-    background: url("../../assets/small-screen-background.jpeg") no-repeat fixed;
-  }
 }
