@@ -37,6 +37,6 @@ h1 {
 
 @media (max-width: 480px) {
   #greeting {
-    background-position: unset;
+    background: url("../../assets/small-screen-background.jpeg") no-repeat fixed;
   }
 }
