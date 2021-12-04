@@ -34,3 +34,9 @@ h1 {
   font-weight: 600;
   margin-bottom: 2rem;
 }
+
+@media (max-width: 480px) {
+  #greeting {
+    background-position: unset;
+  }
+}
