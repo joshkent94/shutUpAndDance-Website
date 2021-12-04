@@ -63,3 +63,21 @@
   padding: 2rem 0;
   font-size: 0.8rem;
 }
+
+@media (max-width: 768px) {
+  #upper-footer-content {
+    flex-direction: column;
+  }
+
+  #upper-footer-left {
+    text-align: center;
+  }
+
+  #upper-footer-right {
+    padding-top: 2.5rem;
+  }
+
+  #lower-footer-content {
+    text-align: center;
+  }
+}
