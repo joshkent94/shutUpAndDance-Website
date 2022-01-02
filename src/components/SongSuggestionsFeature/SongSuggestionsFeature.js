@@ -21,9 +21,6 @@ export default function SongSuggestionsFeature() {
 
     return (
         <div ref={domRef} className={isVisible ? "content-block animate__animated animate__slow animate__fadeIn" : "content-block animate__animated animate__slow"} id="suggestion-feature">
-            <div className="image-content">
-                <img src={guitarist} alt="guitarist" className="feature-image"></img>
-            </div>
             <div className="text-content">
                 <h3>Song suggestions based on the music you love</h3>
                 <h5>Our recommendations engine will introduce you to new music that you enjoy.</h5>
@@ -36,6 +33,9 @@ export default function SongSuggestionsFeature() {
                         </svg>
                     </a>
                 </div>
+            </div>
+            <div className="image-content">
+                <img src={guitarist} alt="guitarist" className="feature-image"></img>
             </div>
         </div>
     );

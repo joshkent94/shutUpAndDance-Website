@@ -10,8 +10,8 @@ export default function Footer() {
                 <div id="upper-footer-content">
                     <div id="upper-footer-left">
                         <h5 className="footer-heading">Features</h5>
+                        <p><a href="#dashboard-feature" className="footer-links">Dashboards</a></p>
                         <p><a href="#suggestion-feature" className="footer-links">Song suggestions</a></p>
-                        <p><a href="#gigs-feature" className="footer-links">Gig information</a></p>
                         <p><a href="#forum-feature" className="footer-links">Music forum</a></p>
                     </div>
                     <div id="upper-footer-right">
